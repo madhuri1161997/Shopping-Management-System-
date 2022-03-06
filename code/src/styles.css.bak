@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	
+	 background-image: url("Untitled-design-8-1030x580-1-1030x423 (2).png");
+	  background-repeat: no-repeat;
+	  
+	 #background-image: url("rawpixel-974545-unsplash-1200x839.jpg");
+	  
+}

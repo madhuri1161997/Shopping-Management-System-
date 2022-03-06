@@ -1,0 +1,8 @@
+export class User {
+id:number;
+item:string;
+Category:string;
+price:number;
+qty:number;
+
+}

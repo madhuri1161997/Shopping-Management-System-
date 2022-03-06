@@ -1,0 +1,28 @@
+
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 30%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 10px; 
+  left: 450px;
+}
+/*"width:50%,float:left;"*/
+.loginbtn
+{
+	width: 30%;
+}
+.tip
+{
+	color:LightSlateGray;
+  #background-color: black;
+  margin-bottom:-55px;
+  
+  
+
+	
+}
+div.tip:hover {
+  color:Navy;
+  
+}

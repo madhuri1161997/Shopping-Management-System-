@@ -1,0 +1,35 @@
+<html>
+<body>
+<div class="card my-5">
+ <!-- <div class="card-body"> -->
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+		  <th scope="col">Item</th>
+		  <th scope="col">Cateory</th>
+		  <th scope="col">Price</th>
+		  <th scope="col">Qty</th>
+		  <th> Action</th>
+		  
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let User of user">
+          <td>{{ User.id }}</td>
+		  <td>{{ User.item }}</td>
+		   <td>{{ User.category}}</td>
+		  <td>{{ User.price}}</td>
+		  <td>{{ User.qty}}</td>
+		    <!-- <button (click)="update(user.id)" class ="btn btn-dark">Update</button> -->
+		  <td>
+		  <button type="button" class="btn btn-danger">Delete</button> &nbsp;
+          <button type="button" class = "btn btn-info"> Update</button>
+		  </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<!--</div>-->
+</body>
+</html>
